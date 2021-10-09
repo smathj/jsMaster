@@ -1,0 +1,15 @@
+{
+  "name": "js_sample",
+  "version": "1.0.0",
+  "description": "자바스크립트 마스터북 예제",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yoshihiro Yamada",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}
