@@ -5,6 +5,8 @@ function arrayWalk(data, f) {
 }
 
 var result= 0;
+
+// value를 총합하는 콜백 함수
 function sumElement(value, key) {
   result += value;
 }

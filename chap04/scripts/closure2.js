@@ -9,7 +9,7 @@ function closure(init) {
 var myClosure1 = closure(1);
 var myClosure2 = closure(100);
 
-console.log(myClosure1());
-console.log(myClosure2());
-console.log(myClosure1());
-console.log(myClosure2());
+console.log(myClosure1());    // 2
+console.log(myClosure2());    // 101
+console.log(myClosure1());    // 3
+console.log(myClosure2());    // 102
