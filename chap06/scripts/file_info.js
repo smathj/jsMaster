@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', function() {
   document.getElementById("file").addEventListener('change', function(e) {
-    var inputs = document.getElementById("file").files;
+    var inputs = document.getElementById("file").files; // 여러개 파일까지
     for (var i = 0, len = inputs.length; i < len; i++) {
       var input = inputs[i];
       console.log('파일명:' + input.name);
