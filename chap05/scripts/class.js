@@ -9,5 +9,5 @@ class Member {
   }
 }
 
-let m = new Member('시온', '정');
+let m = new Member('쿤', '나태');
 console.log(m.getName());

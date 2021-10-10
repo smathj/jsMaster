@@ -7,5 +7,5 @@ function hoge() {
 }
 
 hoge.call(null);
-hoge.call(obj1);
-hoge.call(obj2);
+hoge.call(obj1);  // obj1을 this로 참조
+hoge.call(obj2);  // obj2을 this로 참조
