@@ -1,3 +1,5 @@
+// function 명령으로 생성하기
+
 function getTriangle(base, height) {
   return base * height / 2;
 }

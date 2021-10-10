@@ -1,3 +1,5 @@
+// 함수 생성자
+
 var param = 'height, width';
 var formula = 'return height * width / 2;';
 var diamond = new Function(param, formula);

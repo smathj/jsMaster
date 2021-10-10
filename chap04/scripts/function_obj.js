@@ -1,3 +1,5 @@
+// 함수 생성자
+
 var getTriangle = new Function('base', 'height', 'return base * height / 2;');
 //var getTriangle = Function('base', 'height', 'return base * height / 2;');
 //var getTriangle = new Function('base, height', 'return base * height / 2;');

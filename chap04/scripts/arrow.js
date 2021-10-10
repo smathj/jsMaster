@@ -1,3 +1,5 @@
+// 애로우 함수
+
 let getTriangle = (base, height) => {
   return base * height / 2;
 };

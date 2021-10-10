@@ -1,4 +1,5 @@
 var scope = 'Global Variable';
+
 function getValue() {
   var scope = 'Local Variable';
   return scope;
@@ -6,3 +7,6 @@ function getValue() {
 
 console.log(getValue());
 console.log(scope);
+
+
+// ez

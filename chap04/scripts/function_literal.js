@@ -1,3 +1,5 @@
+// 함수 리터럴
+
 var getTriangle = function(base, height) {
   return base * height / 2;
 };
